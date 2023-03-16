@@ -8,12 +8,12 @@
 </head>
 
 <body>
-  <div class="titulo">
+  <div>
     <h1>Cadastro da Liga dos Austronautas</h1>
   </div>
-  <div class="formulario">
-    <form id="dados-primeiros">
-      <div class="dados-primarios">
+
+    <form>
+      <div>
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" required><br><br>
         <label for="email">Email:</label>
@@ -22,13 +22,16 @@
         <input type="password" name="psw" id="psw" required>
       </div>
       <br>
-      <div class="dados-secundarios">
+
+      <div>
         <label for="birthday">Data de nascimento:</label>
         <input type="date" name="birthday" id="birthday"> -
         <label for="photo">Foto:</label>
-        <input type="file" name="photo" id="photo"><br><br>
+        <input type="file" name="photo" id="photo">
+        </div>
+        <br>
 
-        <div class="nacionalidade">
+        <div>
           <label for="nacionalidade">Nacionalidade:</label>
           <select name="nacionalidade" id="nacionalidade">
             <option selected disabled>Selecione</option>
@@ -48,7 +51,8 @@
           <label>
             <input type="radio" name="genero" value="Outro"> Outro
           </label>
-        </div><br>
+        </div>
+        <br>
 
         <div>
           <label>Suas principais qualidades:</label><br>
@@ -76,7 +80,6 @@
           <input type="submit" name="botao" id="botao" value="Criar">
         </div>
     </form>
-  </div>
 
 </body>
 
